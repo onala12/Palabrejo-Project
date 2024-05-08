@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nombre de la página  -->
+    <title>Geolocalización</title>
+        <!-- linkeo el leaflet -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+     <!-- linkeo los css -->
+    <link rel="stylesheet" href="css/reset_meyer.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- linkeo el java script -->
+    <script src="script/geolocation.js"></script>
+</head>
+<body>
+     <!-- titulo de la pagina -->
+    <h1>Ubícate ;D</h1>
+    <!-- caja del mapa -->
+    <div class="map_box">
+      <!-- mapa -->
+    <div id="map"></div>
+</div>
+    <!-- boton -->
+<div class="button-container">
+    <p><button type="button" id="locateMe">Localízame</button></p>
+</div>
+    <!-- consola pizarra -->
+    <div id="consola"></div>
+
+</body>
+</html>
