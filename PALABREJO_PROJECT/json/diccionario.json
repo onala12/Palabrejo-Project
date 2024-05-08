@@ -1,0 +1,13 @@
+{
+    "id" : "0",
+    "word" : "Esgonzar",
+    "definition" : [{"Desgoznar, quitar o arrancar los gonces (goznes o bisagras)."},
+    {"Desgoznar, desquiciar."}, {"Caer sin fuerzas por debilidad física o fatiga."}]
+    "location" : 1,
+    "type" : 1, 
+    "origine" : ["no me acuerdo",
+                    "no me acuerdo"],
+    "phrases": "xxxx",
+    "phonetic": "xx",
+    "visible": true,
+}
