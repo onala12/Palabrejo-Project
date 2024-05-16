@@ -32,6 +32,7 @@ function init() {
     let html= "";
     palabras.forEach(
         (palabra, i) => {
+            if (favoritos.indexOf(palabra.id) < 0) return;
             let estrella = "no";
             if (favoritos.indexOf(palabra.id)>=0){
                 estrella = "si";

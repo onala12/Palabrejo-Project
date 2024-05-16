@@ -15,10 +15,8 @@ const datos = {
   
     // Crear el HTML para la ficha de información
     let html = `
-      <div class="ficha">
-        <p class="ficha__etiqueta">Nombre: </p>
-        <p class="ficha__valor">${datos.nombre}</p>
-        <p class="ficha__etiqueta">Apellido: </p>
+      <div class="mi-palabra">
+        <p class="nombre">${datos.nombre}</p>
         <p class="ficha__valor">${datos.apellido}</p>
         <p class="ficha__etiqueta">Edad: </p>
         <p class="ficha__valor">${datos.edad}</p>
@@ -30,3 +28,6 @@ const datos = {
     // Asignar el HTML al div 'pizarra'
     div.innerHTML = html;
   }
+
+  
+  
