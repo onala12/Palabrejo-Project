@@ -1,0 +1,40 @@
+body {
+    font-family: monospace; 
+    background-color: #FFBE00; /* color de fondo */
+    padding: 0;
+    color: #EFEFEF; /* color del texto */
+    display: flex; /* diseño de caja flexible */
+    flex-direction: column; /* dirección de los elementos a modo de columna */
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; /* oculta el desbordamiento de contenido */
+}
+
+/* Añadido para adaptar la web a tamaño móvil */
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+/* Añadido para crear el rectángulo */
+#rectangulo {
+    position: absolute;
+    bottom: 0;
+    height: 90vh; /* desde los márgenes de abajo de la página hasta casi arriba */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* color de fondo del rectángulo */
+}
+
+/* Modificado para colocar el párrafo en la parte inferior */
+#subtitulo-contenedor {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Modificado para colocar el título en la parte superior */
+#titulo-contenedor {
+    position: absolute;
+    top: 0;
+}
