@@ -1,0 +1,79 @@
+[
+    {
+        "id" : "0",
+        "word" : "Achanclar",
+        "definition" : 
+            [
+                "Enfermar.",
+                "Echarse a perder.", 
+                "Quedarse en casa sin salir a pasear."
+            ],
+        "location" : "6",
+        "type" : "vb.", 
+        "origine" : "Parece que “achanclarse” es una palabra regional que puede no estar bien documentada en fuentes accesibles en línea. Podría ser útil hablar con locales.",
+        "phrases": [
+            "Después de la fiesta de cumpleaños, comí tanto pastel que me achanclé y tuve que quedarme en cama al día siguiente.",
+
+            "Después de la larga caminata por la montaña, me sentí tan cansado que me achanclé en el sofá todo el día."
+        ],
+        "phonetic": "/a.tʃan.'klar/",
+        "visible": true
+    },
+    {
+        "id" : "1",
+        "word" : "Albarcas",
+        "definition" : 
+            [
+                "Abarcas.",
+
+                "Enormes zapatillas de madera utilizadas en los pueblos."
+            ],
+        "location" : "5",
+        "type" : "sust.", 
+        "origine" : "Del vasco, abarkia, procedente de abarra (ramitas) y qui (cosa). Es decir, cosa hecha con ramitas. La forma original abarca probablemente se transformó en albarca por dotarla por error de un falso origen árabe (*al barca).",
+        "phrases": [
+            "Porque con estas albarcas se anda mal entre las charcas.",
+
+            "Y con pantorrillas de carnero y sus albarcas de cochino cumplía los restantes cabos de su brutal y enmarañada vestidura."
+        ],
+        "phonetic": "/al'βaɾkas/",
+        "visible": true
+    },
+    {
+        "id" : "2",
+        "word" : "Arambol",
+        "definition" : 
+            [
+                "Hace referencia a la balaustrada de una escalera, es decir, a las columnas pequeñas con las que se forman las barandillas.",
+
+                "Baranda."
+            ],
+        "location" : "7",
+        "type" : "sust.", 
+        "origine" : "Palabra originaria de Palencia y Valladolid",
+        "phrases": [
+            "Mi abuela se ayuda del arambol para bajar las escaleras",
+
+            "El chiguito corito se escolingaba por el arambol."
+        ],
+        "phonetic": "/al'βaɾkas/",
+        "visible": true
+    },
+    {
+        "id" : "1",
+        "word" : "Esgonzar",
+        "definition" : 
+            [
+                "Desgoznar, quitar o arrancar los gonces (goznes o bisagras).",
+                "Desgoznar, desquiciar.", 
+                "Caer sin fuerzas por debilidad física o fatiga."
+            ],
+        "location" : "6",
+        "type" : "verb.", 
+        "origine" : ["no me acuerdo",
+                        "no me acuerdo"],
+        "phrases": "xxxx",
+        "phonetic": "xx",
+        "visible": true
+    }
+]
