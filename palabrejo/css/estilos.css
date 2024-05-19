@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*pongo estilos base*/ 
+
+:root {
+    --font-f-base: 'Ibarra Real Nova';
+    --font-s-base: 3vw;
+    --col-yellow: hsl(45, 100%, 50%);
+    --col-blanco: hsl(0, 0%, 94%);
+    --col-negro: hsl(45, 4%, 20%);
+    }
+
 body {
-    font-family: monospace; 
-    background-color: #FFBE00; /* color de fondo */
+    font-family: var(--font-f-base);; 
+    background-color: var(--col-negro);
     padding: 0;
-    color: #EFEFEF; /* color del texto */
+    color: var(--col-blanco);
     display: flex; /* diseño de caja flexible */
     flex-direction: column; /* dirección de los elementos a modo de columna */
     align-items: center;
@@ -19,22 +31,78 @@ body {
 }
 
 /* Añadido para crear el rectángulo */
-#rectangulo {
+
+
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
+    scroll-behavior: smooth;
     position: absolute;
     bottom: 0;
-    height: 90vh; /* desde los márgenes de abajo de la página hasta casi arriba */
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* color de fondo del rectángulo */
+    z-index: 1;
+    justify-content: left; /* Alinea las tarjetas a la izquierda */
+    padding-left: 4em;
 }
+
+.card {
+    flex: 0 0 auto;
+    margin: 1em;
+    border: 1px solid var(--col-blanco);
+    border-radius: 1em;
+    padding: 1em;
+    scroll-snap-align: start;
+    width: 200px;
+    height: 100px; /* Reduce la altura de las tarjetas */
+    background-color: var(--col-blanco);
+    color: var(--col-negro);
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    font-size: 0.6em;
+}
+
+
 
 /* Modificado para colocar el párrafo en la parte inferior */
 #subtitulo-contenedor {
     position: absolute;
     bottom: 0;
+    height: 82vh; /* desde los márgenes de abajo de la página hasta casi arriba */
+    width: 100%;
+    background-color: var(--col-yellow);; /* color de fondo del rectángulo */
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: var(--col-negro);
+    text-align: center;
+    margin-top: 3em;
+    
 }
 
-/* Modificado para colocar el título en la parte superior */
+#texto-subtitulo {
+    text-align: left;
+    width: 100%;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+
 #titulo-contenedor {
     position: absolute;
+    display: flex;
+    text-align: left;
+    font-size:x-small;
     top: 0;
+    left: 0; 
+    line-height: 0.3em;
+    flex-direction: column; 
+    padding-top: 4em;
+    padding-left: 4em; /* Añade margen a la izquierda */
 }
