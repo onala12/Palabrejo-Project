@@ -1,66 +1,114 @@
-/*importo tipografías*/ 
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /*pongo estilos base*/ 
 
 :root {
-    --font-f-base: 'IBM Plex Mono', monospace;
-    --font-s-base: 1vw;
-    --col-black: hsl(235, 81%, 15%);
-    --col-lightblue: hsl(190, 40%, 95%)
-    
+    --font-f-base: 'Ibarra Real Nova';
+    --font-s-base: 3vw;
+    --col-yellow: hsl(45, 100%, 50%);
+    --col-blanco: hsl(0, 0%, 94%);
+    --col-negro: hsl(45, 4%, 20%);
     }
 
-/*pongo estilos de body*/ 
-
 body {
-    font-family: system-ui;
-    font-size: 3vw;
+    font-family: var(--font-f-base);; 
+    background-color: var(--col-negro);
+    padding: 0;
+    color: var(--col-blanco);
+    display: flex; /* diseño de caja flexible */
+    flex-direction: column; /* dirección de los elementos a modo de columna */
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; /* oculta el desbordamiento de contenido */
+}
+
+/* Añadido para adaptar la web a tamaño móvil */
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+/* Añadido para crear el rectángulo */
+
+
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
+    scroll-behavior: smooth;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    justify-content: flex-start; /* Alinea las tarjetas a la izquierda */
+    padding-bottom: 4em;
+}
+
+.card {
+    flex: 0 0 auto;
+    margin: 1em;
+    border: 1px solid var(--col-blanco);
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    scroll-snap-align: start;
+    width: 200px;
+    height: 100px; /* Reduce la altura de las tarjetas */
+    background-color: var(--col-blanco);
+    color: var(--col-negro);
+    font-family: 'Open Sans';
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    font-size: 0.6em;
+}
+
+
+
+/* Modificado para colocar el párrafo en la parte inferior */
+#subtitulo-contenedor {
+    position: absolute;
+    bottom: 0;
+    height: 84vh; /* desde los márgenes de abajo de la página hasta casi arriba */
+    width: 100%;
+    background-color: var(--col-yellow);; /* color de fondo del rectángulo */
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: var(--col-negro);
+    text-align: center;
+    margin-top: 3em;
     
 }
-/*estilos del mapa*/ 
+
+#texto-subtitulo {
+    text-align: left;
+    width: 100%;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-left: 1em;
+}
 
 
-/*contenedor del boton*/ 
-.button-container {
+#titulo-contenedor {
+    position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/*hover del boton*/ 
-
-
-
-/*parrafo*/ 
-
-p {
-    margin: 1em;
-}
-
-/*caja de la mapa*/ 
-
-.map_box {
-    height: auto;
-border-radius: 15px;
-overflow: hidden;
-
-/*consola o pizarra de la web*/ 
-
-}
-#consola {
-    margin: 1em;
-    width: auto;
-    height: 150px;
-    overflow: scroll;
-    font-family: var(--font-f-base);
-    background-color: var(--col-black);
-    color: var(--col-lightblue);
-    border-radius: 15px;
-    text-align: center;
-font-size: 1.5em;
-padding: 1em;
-
+    text-align: left;
+    font-size:x-small;
+    top: 0;
+    left: 0; 
+    line-height: 0.3em;
+    flex-direction: column; 
+    padding-top: 4em;
+    padding-left: 4em; /* Añade margen a la izquierda */
 }
 
 /* ----------------------------------------------------------------------------------- */
