@@ -4,7 +4,7 @@ favoritos.setDebug(true);
 
 var palabras=null;
 
-fetch("/json/diccionario.json")
+fetch("/json/palabras.json")
     .then((r) => r.json())
     .then((d) => {
         palabras=d;
