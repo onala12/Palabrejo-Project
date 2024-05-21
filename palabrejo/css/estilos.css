@@ -1,0 +1,115 @@
+/*importo tipografías*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+
+/*pongo estilos base*/ 
+
+:root {
+    --font-f-base: 'IBM Plex Mono', monospace;
+    --font-s-base: 1vw;
+    --col-black: hsl(235, 81%, 15%);
+    --col-lightblue: hsl(190, 40%, 95%)
+    
+    }
+
+/*pongo estilos de body*/ 
+
+body {
+    font-family: system-ui;
+    font-size: 3vw;
+    
+}
+/*estilos del mapa*/ 
+
+
+/*contenedor del boton*/ 
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*hover del boton*/ 
+
+
+
+/*parrafo*/ 
+
+p {
+    margin: 1em;
+}
+
+/*caja de la mapa*/ 
+
+.map_box {
+    height: auto;
+border-radius: 15px;
+overflow: hidden;
+
+/*consola o pizarra de la web*/ 
+
+}
+#consola {
+    margin: 1em;
+    width: auto;
+    height: 150px;
+    overflow: scroll;
+    font-family: var(--font-f-base);
+    background-color: var(--col-black);
+    color: var(--col-lightblue);
+    border-radius: 15px;
+    text-align: center;
+font-size: 1.5em;
+padding: 1em;
+
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+/* Contenedor general de un grupo de tabs */
+.tabs {
+    /* No tiene estilos pero está aquí por si se sobreescribe */
+}
+
+/* Contenedor de los botones */
+.tabs__buttons {
+    display: flex;
+}
+
+/* Cada botón del tab */
+
+
+/* Cada botón del tab cuando pasas por encima */
+.tabs__tabbutton:hover {
+    background-color: #9c9c9c;
+    color: black;
+}
+
+/* Cada botón del tab cuando está seleccionado/activo */
+.tabs__tabbutton--selected {
+    background-color: black;
+    color: white;
+}
+
+/* Contenedor de todas las tabs con información */
+.tabs__content {
+    display: grid;
+    min-height: 20em;
+    border: 1px solid #666;
+    border-radius: 0 0 1em 1em;
+    overflow: hidden;
+}
+
+/* Una tab con información */
+/* Por defecto OCULTA */
+.tabs__tab {
+    display: none;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Una tab con información visible */
+.tabs__tab--visible {
+    display: block;
+}
+

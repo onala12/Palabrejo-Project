@@ -1,0 +1,322 @@
+[
+    {
+        "id" : "0",
+        "word" : "Achanclar",
+        "definition" : 
+            [
+                "Enfermar.",
+                "Echarse a perder.", 
+                "Quedarse en casa sin salir a pasear."
+            ],
+        "location" : "6",
+        "type" : "vb.", 
+        "origine" : "Parece que “achanclarse” es una palabra regional que puede no estar bien documentada en fuentes accesibles en línea. Podría ser útil hablar con locales.",
+        "phrases": [
+            "Después de la fiesta de cumpleaños, comí tanto pastel que me achanclé y tuve que quedarme en cama al día siguiente.",
+
+            "Después de la larga caminata por la montaña, me sentí tan cansado que me achanclé en el sofá todo el día."
+        ],
+        "phonetic": "/a.tʃan.'klar/",
+        "visible": true
+    },
+    {
+        "id" : "1",
+        "word" : "Albarcas",
+        "definition" : 
+            [
+                "Abarcas.",
+
+                "Enormes zapatillas de madera utilizadas en los pueblos."
+            ],
+        "location" : "5",
+        "type" : "sust.", 
+        "origine" : "Del vasco, abarkia, procedente de abarra (ramitas) y qui (cosa). Es decir, cosa hecha con ramitas. La forma original abarca probablemente se transformó en albarca por dotarla por error de un falso origen árabe (*al barca).",
+        "phrases": [
+            "Porque con estas albarcas se anda mal entre las charcas.",
+
+            "Y con pantorrillas de carnero y sus albarcas de cochino cumplía los restantes cabos de su brutal y enmarañada vestidura."
+        ],
+        "phonetic": "/al'βaɾkas/",
+        "visible": true
+    },
+    {
+        "id" : "2",
+        "word" : "Arambol",
+        "definition" : 
+            [
+                "Hace referencia a la balaustrada de una escalera, es decir, a las columnas pequeñas con las que se forman las barandillas.",
+
+                "Baranda."
+            ],
+        "location" : "7",
+        "type" : "sust.", 
+        "origine" : "Palabra originaria de Palencia y Valladolid",
+        "phrases": [
+            "Mi abuela se ayuda del arambol para bajar las escaleras",
+
+            "El chiguito corito se escolingaba por el arambol."
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "3",
+        "word" : "Amasquillo",
+        "definition" : "Albaricoque",
+        "location" : "0",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "Mi abuela se ayuda del arambol para bajar las escaleras",
+
+            "El chiguito corito se escolingaba por el arambol."
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "4",
+        "word" : "Badar",
+        "definition" : "Agrietar",
+        "location" : "1",
+        "type" : "vb.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "5",
+        "word" : "Bimbazo",
+        "definition" : [
+            "Porrazo",
+            "Golpe fuerte"
+        ],
+        "location" : "0",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "6",
+        "word" : "Bule",
+        "definition" :"Autobús",
+        "location" : "13",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "7",
+        "word" : "Calba",
+        "definition" :"Medida hecha a ojo que resulta ser exacta.",
+        "location" : "10",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "8",
+        "word" : "Chaflán",
+        "definition" :"En arquitectura, cuando una esquina está cortada formando un plano entre dos ángulos.",
+        "location" : "9",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "9",
+        "word" : "Debán",
+        "definition" :"Delante.",
+        "location" : "1",
+        "type" : "adv.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "10",
+        "word" : "Esgonzar",
+        "definition" : 
+            [
+                "Desgoznar, quitar o arrancar los gonces (goznes o bisagras).",
+                "Desgoznar, desquiciar.", 
+                "Caer sin fuerzas por debilidad física o fatiga."
+            ],
+        "location" : "6",
+        "type" : "verb.", 
+        "origine" : ["no me acuerdo",
+                        "no me acuerdo"],
+        "phrases": "xxxx",
+        "phonetic": "xx",
+        "visible": true
+    },
+    {
+        "id" : "11",
+        "word" : "Emputecer",
+        "definition" :"Perder algo.",
+        "location" : "10",
+        "type" : "vb.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "12",
+        "word" : "Guardabaches",
+        "definition" :"Un niño que es muy pequeño para jugar con los demás y se queda mirando o cuidando los trastos para jugar.",
+        "location" : "6",
+        "type" : "adv.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "13",
+        "word" : "Luar",
+        "definition" :"La luz de la luna.",
+        "location" : "11",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "14",
+        "word" : "Malapipa",
+        "definition" :"Seco, sin gracia",
+        "location" : "0",
+        "type" : "adj.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "15",
+        "word" : "Murga",
+        "definition" :"Molestar con palabras o acciones que causan hastío por prolijas o impertinentes.",
+        "location" : "7",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "16",
+        "word" : "Pipelera",
+        "definition" :"Recipiente, contenedor o bolsa que sirve para tirar las cáscaras.",
+        "location" : "7",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "17",
+        "word" : "Rareo",
+        "definition" :"Clareo o corte de árboles para hacer menos denso el bosque.",
+        "location" : "11",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "18",
+        "word" : "Uro",
+        "definition" :"Bóvido salvaje muy parecido al toro, pero de mayor tamaño, que fue abundantísimo en la Europa central en el Cuaternario y se extinguió en 1627.",
+        "location" : "4",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    },
+    {
+        "id" : "19",
+        "word" : "Zaborrero",
+        "definition" :"Una persona chapucera, que presta poca atención a lo que hace o que dedica poco tiempo a una tarea.",
+        "location" : "1",
+        "type" : "sust.", 
+        "origine" : "xxx",
+        "phrases": [
+            "xxxx",
+
+            "xxxx"
+        ],
+        "phonetic": "/xxx/",
+        "visible": true
+    }
+]
