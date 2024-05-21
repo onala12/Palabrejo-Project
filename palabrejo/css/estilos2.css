@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*pongo estilos base*/
+
+:root {
+    --font-f-base: 'Ibarra Real Nova', serif;
+    --font-s-base: 3vw;
+    --col-yellow: hsl(45, 100%, 50%);
+    --col-blanco: hsl(0, 0%, 94%);
+    --col-negro: hsl(45, 4%, 20%);
+}
+
+body {
+    font-family: var(--font-f-base);
+    background-color: var(--col-blanco);
+    padding: 0;
+    color: var(--col-blanco);
+    display: flex;
+    /* diseño de caja flexible */
+    flex-direction: column;
+    /* dirección de los elementos a modo de columna */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    /* oculta el desbordamiento de contenido */
+}
+
+main {
+    background-color: var(--col-blanco);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+}
+
+icon {
+    padding: 8px;
+}
+
+/* Añadido para adaptar la web a tamaño móvil */
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+/* Añadido para crear el rectángulo */
+
+.navbar {
+    display: flex;
+    height: auto;
+    width: 390px;
+    padding: 16px 32px;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--col-negro, #343330);
+    box-shadow: 0px -1px 8px 0px rgba(--col-negro, 50%);
+}
+
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
+    scroll-behavior: smooth;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    justify-content: flex-start;
+    /* Alinea las tarjetas a la izquierda */
+    padding-bottom: 4em;
+}
+
+.card {
+    display: flex;
+    width: 362px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid #000;
+    border-radius: 16px;
+
+    /* Reduce la altura de las tarjetas */
+    background-color: var(--col-negro);
+    color: var(--col-blanco);
+    font-family: 'Open Sans';
+
+    .card__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        color: var(--col-yellow);
+    }
+
+    p {
+        font-size: 0.6em;
+        color: var(--col-blanco);
+        width: 100%;
+    }
+
+}
+
+
+/* Modificado para colocar el párrafo en la parte inferior */
+#subtitulo-contenedor {
+    position: absolute;
+    bottom: 0;
+    height: 84vh;
+    /* desde los márgenes de abajo de la página hasta casi arriba */
+    width: 100%;
+    background-color: var(--col-yellow);
+    /* color de fondo del rectángulo */
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: var(--col-negro);
+    text-align: center;
+    margin-top: 3em;
+
+}
+
+#texto-subtitulo {
+    text-align: left;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+
+#titulo-contenedor {
+    position: absolute;
+    display: flex;
+    text-align: left;
+    font-size: x-small;
+    top: 0;
+    left: 0;
+    line-height: 0.3em;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-left: 4em;
+    /* Añade margen a la izquierda */
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+/* Contenedor general de un grupo de tabs */
+.tabs {
+    /* No tiene estilos pero está aquí por si se sobreescribe */
+}
+
+/* Contenedor de los botones */
+.tabs__buttons {
+    display: flex;
+}
+
+/* Cada botón del tab */
+
+
+/* Cada botón del tab cuando pasas por encima */
+.tabs__tabbutton:hover {
+    background-color: #9c9c9c;
+    color: black;
+}
+
+/* Cada botón del tab cuando está seleccionado/activo */
+.tabs__tabbutton--selected {
+    background-color: black;
+    color: white;
+}
+
+/* Contenedor de todas las tabs con información */
+.tabs__content {
+    display: grid;
+    min-height: 20em;
+    border: 1px solid #666;
+    border-radius: 0 0 1em 1em;
+    overflow: hidden;
+}
+
+/* Una tab con información */
+/* Por defecto OCULTA */
+.tabs__tab {
+    display: none;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Una tab con información visible */
+.tabs__tab--visible {
+    display: block;
+}
