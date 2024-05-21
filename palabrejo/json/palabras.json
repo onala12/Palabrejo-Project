@@ -10,7 +10,7 @@
             ],
         "location" : "6",
         "type" : "vb.", 
-        "origine" : "Parece que “achanclarse” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
+        "origine" : ["Parece que “achanclarse” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales."],
         "phrases": [
             "Después de la fiesta de cumpleaños, comí tanto pastel que me achanclé y tuve que quedarme en cama al día siguiente.",
 
@@ -30,7 +30,7 @@
             ],
         "location" : "5",
         "type" : "sust.", 
-        "origine" : "Del vasco, abarkia, procedente de abarra (ramitas) y qui (cosa). Es decir, cosa hecha con ramitas. La forma original abarca probablemente se transformó en albarca por dotarla por error de un falso origen árabe (*al barca).",
+        "origine" : ["Del vasco, abarkia, procedente de abarra (ramitas) y qui (cosa). Es decir, cosa hecha con ramitas. La forma original abarca probablemente se transformó en albarca por dotarla por error de un falso origen árabe (*al barca)."],
         "phrases": [
             "Porque con estas albarcas se anda mal entre las charcas.",
 
@@ -98,7 +98,7 @@
         ],
         "location" : "0",
         "type" : "sust.", 
-        "origine" : "“Bimbazo” parece ser una variante de “bombazo”, que se encuentra en el Tesoro de los diccionarios históricos de la lengua española",
+        "origine" : ["“Bimbazo” parece ser una variante de “bombazo”, que se encuentra en el Tesoro de los diccionarios históricos de la lengua española"],
         "phrases": [
             "Vaya bimbazo que se dió al caerse del patinete.",
 

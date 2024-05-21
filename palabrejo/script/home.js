@@ -8,25 +8,23 @@ fetch("/json/palabras.json")
     .then((r) => r.json())
     .then((d) => {
         palabras = d;
-        if (document.readyState === "complete") {
             init();
-            init2(palabras, "");
-        }
+            buscador(palabras, "");
+        
     });
 
 fetch("/json/CCAA.json")
     .then((r) => r.json())
     .then((d) => {
         comunidades = d;
-        if (document.readyState === "complete") {
             init();
-        }
+        
     });
 
 document.addEventListener("DOMContentLoaded", () => {
     if (palabras !== null && comunidades !== null) {
         init();
-        init2(palabras, "");
+        buscador(palabras, "");
     }
     setupSearch();
 });
@@ -60,7 +58,7 @@ function addRemoveFav(id, idEnlace) {
     enlace.innerText = favoritos.indexOf(id) >= 0 ? "si" : "no";
 }
 
-function init2(palabras, searchVal) {
+function buscador(palabras, searchVal) {
     if (!palabras) return;
     if (!searchVal) return;
 
@@ -86,7 +84,7 @@ function setupSearch() {
         event.preventDefault();
         const query = document.getElementById("s").value.trim();
         if (query) {
-            init2(palabras, query);
+            buscador(palabras, query);
         }
     });
 }

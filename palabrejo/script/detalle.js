@@ -55,6 +55,13 @@ function init() {
     });
     elemento.innerHTML = html;
 
+    elemento = document.getElementById("origen");
+    html = "";
+    palabra.origine.forEach(ori => {
+        html += `<li>${ori}</li>`;
+    });
+    
+    elemento.innerHTML = html;
     // Asignar frases
     elemento = document.getElementById("frases");
     html = "";
