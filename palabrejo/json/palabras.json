@@ -204,7 +204,7 @@
     {
         "id" : "12",
         "word" : "Guardabaches",
-        "definition" :"Un niño que es muy pequeño para jugar con los demás y se queda mirando o cuidando los trastos para jugar.",
+        "definition" :["Un niño que es muy pequeño para jugar con los demás y se queda mirando o cuidando los trastos para jugar."],
         "location" : "6",
         "type" : "adv.", 
         "origine" : ["Palabra que surge de la combinación de dos palabras independientes, guardar y cachibaches (objetos)"],
