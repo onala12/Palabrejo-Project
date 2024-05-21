@@ -10,7 +10,7 @@
             ],
         "location" : "6",
         "type" : "vb.", 
-        "origine" : "Parece que “achanclarse” es una palabra regional que puede no estar bien documentada en fuentes accesibles en línea. Podría ser útil hablar con locales.",
+        "origine" : "Parece que “achanclarse” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
         "phrases": [
             "Después de la fiesta de cumpleaños, comí tanto pastel que me achanclé y tuve que quedarme en cama al día siguiente.",
 
@@ -56,37 +56,37 @@
 
             "El chiguito corito se escolingaba por el arambol."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/aram'bol/",
         "visible": true
     },
     {
         "id" : "3",
         "word" : "Amasquillo",
-        "definition" : "Albaricoque",
+        "definition" : ["Albaricoque"],
         "location" : "0",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "El origen de esta palabra proviene del color “amusco” amarillento",
         "phrases": [
             "Mi abuela se ayuda del arambol para bajar las escaleras",
 
             "El chiguito corito se escolingaba por el arambol."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/amas'kiʎo/",
         "visible": true
     },
     {
         "id" : "4",
         "word" : "Badar",
-        "definition" : "Agrietar",
+        "definition" : ["Agrietar"],
         "location" : "1",
         "type" : "vb.", 
-        "origine" : "xxx",
+        "origine" : "Parece que “badar” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
         "phrases": [
-            "xxxx",
+            "La calle se badeó tras las lluvias, el cemento que usaron era de mala calidad.",
 
-            "xxxx"
+            "La pintura empezó a badearse de repente."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/ba'ðar/",
         "visible": true
     },
     {
@@ -98,13 +98,13 @@
         ],
         "location" : "0",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "“Bimbazo” parece ser una variante de “bombazo”, que se encuentra en el Tesoro de los diccionarios históricos de la lengua española",
         "phrases": [
-            "xxxx",
+            "Vaya bimbazo que se dió al caerse del patinete.",
 
-            "xxxx"
+            "Me asusté cuando escuché un bimbazo al final de la calle."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/bim'baθo/",
         "visible": true
     },
     {
@@ -113,58 +113,58 @@
         "definition" :"Autobús",
         "location" : "13",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "Palabra que surge de la palabra trolebus.",
         "phrases": [
-            "xxxx",
+            "¿A qué hora pasa el próximo bule?",
 
-            "xxxx"
+            "El bule de hoy se chocó contra un coche."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/'bule/",
         "visible": true
     },
     {
         "id" : "7",
         "word" : "Calba",
-        "definition" :"Medida hecha a ojo que resulta ser exacta.",
+        "definition" :["Medida hecha a ojo que resulta ser exacta."],
         "location" : "10",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "Parece que “Calba” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
         "phrases": [
-            "xxxx",
+            "Vaya calba que me he marcado, tenía razón o no que medía 1m33cm.",
 
-            "xxxx"
+            "Efectivamente calcularon en calba la distancia del disparo y acertaron."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/'kalβa/",
         "visible": true
     },
     {
         "id" : "8",
         "word" : "Chaflán",
-        "definition" :"En arquitectura, cuando una esquina está cortada formando un plano entre dos ángulos.",
+        "definition" :["En arquitectura, cuando una esquina está cortada formando un plano entre dos ángulos."],
         "location" : "9",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "Parece que “chaflán” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
         "phrases": [
-            "xxxx",
+            "La decoración de ese chaflán era victoriano.",
 
-            "xxxx"
+            "Menos mal que esa mesa tenía chaflán si no me habría dado un buen golpe."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/ʧa'flan/",
         "visible": true
     },
     {
         "id" : "9",
         "word" : "Debán",
-        "definition" :"Delante.",
+        "definition" :["Delante."],
         "location" : "1",
         "type" : "adv.", 
-        "origine" : "xxx",
+        "origine" : "Parece que “debán” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales. Aunque parece una influencia de la palabra francesa avant.",
         "phrases": [
-            "xxxx",
+            "Debán iban los mayores y detrás los niños.",
 
-            "xxxx"
+            "Debán de la casa había una pastelería."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/de'an/",
         "visible": true
     },
     {
@@ -178,25 +178,27 @@
             ],
         "location" : "6",
         "type" : "verb.", 
-        "origine" : ["no me acuerdo",
-                        "no me acuerdo"],
-        "phrases": "xxxx",
-        "phonetic": "xx",
+        "origine" : ["Usado principalmente en pueblos de La Mancha como jerga.",
+                    "Esta palabra tiene sus raíces en el español antiguo."],
+        "phrases": ["Las puertas se esgonzaron por el fuerte viento.",
+            
+                    "Sacamos al hombre desmayado del coche, le soplamos y parecía que volvía en sí, pero se esgonzó otra vez."],
+        "phonetic": "/esgon'θar/",
         "visible": true
     },
     {
         "id" : "11",
         "word" : "Emputecer",
-        "definition" :"Perder algo.",
+        "definition" :["Perder algo."],
         "location" : "10",
         "type" : "vb.", 
-        "origine" : "xxx",
+        "origine" : "Parece que “emputecer” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
         "phrases": [
-            "xxxx",
+            "Siempre emputezco mis pendeintes.",
 
-            "xxxx"
+            "Para evitar emputecer a mi perro le puse un chip."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/empute'θer/",
         "visible": true
     },
     {
@@ -205,118 +207,120 @@
         "definition" :"Un niño que es muy pequeño para jugar con los demás y se queda mirando o cuidando los trastos para jugar.",
         "location" : "6",
         "type" : "adv.", 
-        "origine" : "xxx",
+        "origine" : ["Palabra que surge de la combinación de dos palabras independientes, guardar y cachibaches (objetos)"],
         "phrases": [
-            "xxxx",
+            "El guardabaches de mi primo siempre se ponía a llorar.",
 
-            "xxxx"
+            "En la plaza siempre había una guardabaches observándonos jugar."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/ɣwarða'βaʧes/",
         "visible": true
     },
     {
         "id" : "13",
         "word" : "Luar",
-        "definition" :"La luz de la luna.",
+        "definition" :["La luz de la luna."],
         "location" : "11",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "El término “Luar” es de origen gallego.",
         "phrases": [
-            "xxxx",
+            "La luar esta noche está muy bonita.",
 
-            "xxxx"
+            "La luar se reflejaba en el lago."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/lu'ar/",
         "visible": true
     },
     {
         "id" : "14",
         "word" : "Malapipa",
-        "definition" :"Seco, sin gracia",
+        "definition" :["Seco, sin gracia"],
         "location" : "0",
         "type" : "adj.", 
-        "origine" : "xxx",
+        "origine" : "Esta palabra surge en Málaga como símil entre una pipa de girasol con una persona.",
         "phrases": [
-            "xxxx",
+            "Vaya malapipa que tenía el jefe hoy, se levantaría con el  pie izquierdo.",
 
-            "xxxx"
+            "El tío de mi madre es un malapipa."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/mala'pipa/",
         "visible": true
     },
     {
         "id" : "15",
         "word" : "Murga",
-        "definition" :"Molestar con palabras o acciones que causan hastío por prolijas o impertinentes.",
+        "definition" :["Molestar con palabras o acciones que causan hastío por prolijas o impertinentes."],
         "location" : "7",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "Los orígenes de la murga se remontan al siglo XIX, cuando en España surgieron las comparsas, grupos de personas que se disfrazaban y cantaban en las fiestas de Carnaval.",
         "phrases": [
-            "xxxx",
+            "Vaya murga niño no para de molestar.",
 
-            "xxxx"
+            "Deja ya de darme la murga."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/'murɣa/",
         "visible": true
     },
     {
         "id" : "16",
         "word" : "Pipelera",
-        "definition" :"Recipiente, contenedor o bolsa que sirve para tirar las cáscaras.",
+        "definition" :["Recipiente, contenedor o bolsa que sirve para tirar las cáscaras."],
         "location" : "7",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "Palabra que surge de la combinación de dos palabras independientes, pipas y papelera",
         "phrases": [
-            "xxxx",
+            "Pásame la pipelera que tengo que escupir estas cáscaras.",
 
-            "xxxx"
+            "Este bar está hecho un asco, faltan pipeleras."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/pipe'lera/",
         "visible": true
     },
     {
         "id" : "17",
         "word" : "Rareo",
-        "definition" :"Clareo o corte de árboles para hacer menos denso el bosque.",
+        "definition" :["Clareo o corte de árboles para hacer menos denso el bosque."],
         "location" : "11",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "Parece que “rareo” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
         "phrases": [
-            "xxxx",
+            "Parece que hicieron un  rareo ahí para evitar incendios.",
 
-            "xxxx"
+            "Mi abuela hizo en rareo para que pastase el ganado."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/ra'reo/",
         "visible": true
     },
     {
         "id" : "18",
         "word" : "Uro",
-        "definition" :"Bóvido salvaje muy parecido al toro, pero de mayor tamaño, que fue abundantísimo en la Europa central en el Cuaternario y se extinguió en 1627.",
+        "definition" :["Bóvido salvaje muy parecido al toro, pero de mayor tamaño, que fue abundantísimo en la Europa central en el Cuaternario y se extinguió en 1627.",
+        "Día claro."
+        ],
         "location" : "4",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "El término “uro” proviene de la palabra aimara “qhana uru”",
         "phrases": [
-            "xxxx",
+            "Los uros se extinguieron en 1627.",
 
-            "xxxx"
+            "Vaya uro de día, vamos a la playa."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/'uro/",
         "visible": true
     },
     {
         "id" : "19",
         "word" : "Zaborrero",
         "definition" :["Una persona chapucera, que presta poca atención a lo que hace o que dedica poco tiempo a una tarea."],
-        "location" : "1",
+        "location" : "15",
         "type" : "sust.", 
-        "origine" : "xxx",
+        "origine" : "La palabra “zaborrero” procede de “zaborra” y se utiliza en Navarra, España.",
         "phrases": [
-            "xxxx",
+            "Ese último obrero que contratamos es un zaborrero, no hace nada bien su trabajo.",
 
-            "xxxx"
+            "Tu jefa es una zaborrera, todo el día tomando café con sus compañeros."
         ],
-        "phonetic": "/xxx/",
+        "phonetic": "/θaβo'rero/",
         "visible": true
     }
 ]
