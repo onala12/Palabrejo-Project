@@ -50,7 +50,7 @@
             ],
         "location" : "7",
         "type" : "sust.", 
-        "origine" : "Palabra originaria de Palencia y Valladolid",
+        "origine" : ["Palabra originaria de Palencia y Valladolid"],
         "phrases": [
             "Mi abuela se ayuda del arambol para bajar las escaleras",
 
@@ -65,7 +65,7 @@
         "definition" : ["Albaricoque"],
         "location" : "0",
         "type" : "sust.", 
-        "origine" : "El origen de esta palabra proviene del color “amusco” amarillento",
+        "origine" : ["El origen de esta palabra proviene del color “amusco” amarillento"],
         "phrases": [
             "Mi abuela se ayuda del arambol para bajar las escaleras",
 
@@ -80,7 +80,7 @@
         "definition" : ["Agrietar"],
         "location" : "1",
         "type" : "vb.", 
-        "origine" : "Parece que “badar” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
+        "origine" : ["Parece que “badar” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales."],
         "phrases": [
             "La calle se badeó tras las lluvias, el cemento que usaron era de mala calidad.",
 
@@ -110,10 +110,10 @@
     {
         "id" : "6",
         "word" : "Bule",
-        "definition" :"Autobús",
+        "definition" :["Autobús"],
         "location" : "13",
         "type" : "sust.", 
-        "origine" : "Palabra que surge de la palabra trolebus.",
+        "origine" : ["Palabra que surge de la palabra trolebus."],
         "phrases": [
             "¿A qué hora pasa el próximo bule?",
 
@@ -128,7 +128,7 @@
         "definition" :["Medida hecha a ojo que resulta ser exacta."],
         "location" : "10",
         "type" : "sust.", 
-        "origine" : "Parece que “Calba” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
+        "origine" : ["Parece que “Calba” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales."],
         "phrases": [
             "Vaya calba que me he marcado, tenía razón o no que medía 1m33cm.",
 
@@ -143,7 +143,7 @@
         "definition" :["En arquitectura, cuando una esquina está cortada formando un plano entre dos ángulos."],
         "location" : "9",
         "type" : "sust.", 
-        "origine" : "Parece que “chaflán” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
+        "origine" : ["Parece que “chaflán” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales."],
         "phrases": [
             "La decoración de ese chaflán era victoriano.",
 
@@ -158,7 +158,7 @@
         "definition" :["Delante."],
         "location" : "1",
         "type" : "adv.", 
-        "origine" : "Parece que “debán” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales. Aunque parece una influencia de la palabra francesa avant.",
+        "origine" : ["Parece que “debán” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales. Aunque parece una influencia de la palabra francesa avant."],
         "phrases": [
             "Debán iban los mayores y detrás los niños.",
 
@@ -192,7 +192,7 @@
         "definition" :["Perder algo."],
         "location" : "10",
         "type" : "vb.", 
-        "origine" : "Parece que “emputecer” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
+        "origine" : ["Parece que “emputecer” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales."],
         "phrases": [
             "Siempre emputezco mis pendeintes.",
 
@@ -222,7 +222,7 @@
         "definition" :["La luz de la luna."],
         "location" : "11",
         "type" : "sust.", 
-        "origine" : "El término “Luar” es de origen gallego.",
+        "origine" : ["El término “Luar” es de origen gallego."],
         "phrases": [
             "La luar esta noche está muy bonita.",
 
@@ -237,7 +237,7 @@
         "definition" :["Seco, sin gracia"],
         "location" : "0",
         "type" : "adj.", 
-        "origine" : "Esta palabra surge en Málaga como símil entre una pipa de girasol con una persona.",
+        "origine" : ["Esta palabra surge en Málaga como símil entre una pipa de girasol con una persona."],
         "phrases": [
             "Vaya malapipa que tenía el jefe hoy, se levantaría con el  pie izquierdo.",
 
@@ -252,7 +252,7 @@
         "definition" :["Molestar con palabras o acciones que causan hastío por prolijas o impertinentes."],
         "location" : "7",
         "type" : "sust.", 
-        "origine" : "Los orígenes de la murga se remontan al siglo XIX, cuando en España surgieron las comparsas, grupos de personas que se disfrazaban y cantaban en las fiestas de Carnaval.",
+        "origine" : ["Los orígenes de la murga se remontan al siglo XIX, cuando en España surgieron las comparsas, grupos de personas que se disfrazaban y cantaban en las fiestas de Carnaval."],
         "phrases": [
             "Vaya murga niño no para de molestar.",
 
@@ -267,7 +267,7 @@
         "definition" :["Recipiente, contenedor o bolsa que sirve para tirar las cáscaras."],
         "location" : "7",
         "type" : "sust.", 
-        "origine" : "Palabra que surge de la combinación de dos palabras independientes, pipas y papelera",
+        "origine" : ["Palabra que surge de la combinación de dos palabras independientes, pipas y papelera"],
         "phrases": [
             "Pásame la pipelera que tengo que escupir estas cáscaras.",
 
@@ -282,7 +282,7 @@
         "definition" :["Clareo o corte de árboles para hacer menos denso el bosque."],
         "location" : "11",
         "type" : "sust.", 
-        "origine" : "Parece que “rareo” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales.",
+        "origine" : ["Parece que “rareo” es una palabra regional que puede no estar bien documentada en fuentes accesibles. Podría ser útil hablar con locales."],
         "phrases": [
             "Parece que hicieron un  rareo ahí para evitar incendios.",
 
@@ -299,7 +299,7 @@
         ],
         "location" : "4",
         "type" : "sust.", 
-        "origine" : "El término “uro” proviene de la palabra aimara “qhana uru”",
+        "origine" : ["El término “uro” proviene de la palabra aimara “qhana uru”"],
         "phrases": [
             "Los uros se extinguieron en 1627.",
 
@@ -314,7 +314,7 @@
         "definition" :["Una persona chapucera, que presta poca atención a lo que hace o que dedica poco tiempo a una tarea."],
         "location" : "15",
         "type" : "sust.", 
-        "origine" : "La palabra “zaborrero” procede de “zaborra” y se utiliza en Navarra, España.",
+        "origine" : ["La palabra “zaborrero” procede de “zaborra” y se utiliza en Navarra, España."],
         "phrases": [
             "Ese último obrero que contratamos es un zaborrero, no hace nada bien su trabajo.",
 
