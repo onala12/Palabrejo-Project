@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Nombre de la página  -->
     <title>palabrejo</title>
+    <link rel="stylesheet" href="css/reset_meyer.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="script/localstoragelist.js"></script>
     <script src="script/urlparams.js"></script>
-
     <script src="script/detalle.js"></script>
 </head>
 <body>
@@ -20,7 +21,32 @@
 
 <div id="mi-palabra" class="bloque_palabra"></div>
 
-<ol id="definiciones"></ol>
+
+<!-- UN CONJUNTO DE TABS -->
+<div class="tabs">
+    <!-- Los botones -->
+    <div class="tabs__buttons">
+        <!-- Cada uno de los botones -->
+        <a href="#" class="tabs__tabbutton">UNO</a>
+        <a href="#" class="tabs__tabbutton">DOS</a>
+        <a href="#" class="tabs__tabbutton">TRES</a>
+    </div>
+    <!-- El contenido de las tabs -->
+    <div>
+        <!-- Cada una de las tabs -->
+        <div class="tabs__tab tabs__tab--visible">
+            <h2>UNO</h2>
+            <ol id="definiciones"></ol>
+            <p>Esta es la tab por defecto</p>
+        </div>
+        <div class="tabs__tab">
+            <h2>DOS</h2>
+        </div>
+        <div class="tabs__tab">
+            <h2>TRES</h2>
+        </div>
+    </div>
+</div>
 
 <!-- <p class="nombre">${datos.nombre}</p> -->
 </body>
