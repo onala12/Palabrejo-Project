@@ -307,7 +307,7 @@
     {
         "id" : "19",
         "word" : "Zaborrero",
-        "definition" :"Una persona chapucera, que presta poca atención a lo que hace o que dedica poco tiempo a una tarea.",
+        "definition" :["Una persona chapucera, que presta poca atención a lo que hace o que dedica poco tiempo a una tarea."],
         "location" : "1",
         "type" : "sust.", 
         "origine" : "xxx",
