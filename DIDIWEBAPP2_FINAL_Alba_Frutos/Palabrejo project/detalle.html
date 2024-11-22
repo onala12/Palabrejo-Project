@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Nombre de la página  -->
+        <title>palabrejo</title>
+
+        <!-- enlace a hoja de estilos CSS -->
+        <link rel="stylesheet" href="css/reset_meyer.css">
+        <link rel="stylesheet" href="css/estilos_home.css">
+        <link rel="stylesheet" href="css/estilos_detalles.css">
+
+        <!-- enlace al archivo JavaScript -->
+        <script src="script/localstoragelist.js"></script>
+        <script src="script/urlparams.js"></script>
+        <script src="script/detalle.js"></script>
+        <script src="script/template_navbar.js"></script>
+    </head>
+    <body>
+        <div class="contenedor_detalles">
+        <div class="cabecera">
+            <div class="back">
+                <a href="word_list.html"><img src="img/back.svg" alt="Home"
+                        loading="lazy"></a>
+            </div>
+            <h1 id="palabra">palabrejo</h1>
+            <div class="subtitulo-cabecera">
+                <p id="phonetic">fonética</p>
+                <p class="estrella" id="favorito"></p>
+            </div>
+        </div>
+
+        <!-- tabs -->
+        <div class="tabs">
+            <!-- Los botones -->
+            <div class="tabs__buttons">
+                <!-- Cada uno de los botones -->
+                <h2><a href="#" class="tabs__tabbutton">Definición</a></h2>
+                <h2><a href="#" class="tabs__tabbutton">Origen</a></h2>
+                <h2><a href="#" class="tabs__tabbutton">Frases</a></h2>
+            </div>
+            <!-- El contenido de las tabs -->
+            <div>
+                <!-- Cada una de las tabs -->
+                <div class="tabs__tab tabs__tab--visible">
+                    <p id="type"></p>
+                    <p id="definiciones"></p>
+                </div>
+                <div class="tabs__tab">
+                    <p id="CA"></p>
+                    <p id="origen"></p>
+                </div>
+                <div class="tabs__tab">
+                    <p id="frases"></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <nav
+                data-templating-href="navbar.html">
+            </nav>
+        </footer>
+    </body>
+</html>

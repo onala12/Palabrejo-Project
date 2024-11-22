@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>palabrejo</title> <!-- título del documento, que se muestra en la barra de título del navegador -->
+
+    <!-- enlace a las hojas de estilo CSS externas -->
+    <link rel="stylesheet" href="css/reset_meyer.css">
+    <link rel="stylesheet" href="css/estilos_word_list.css">
+
+    <!-- enlace a los archivos JavaScript externos -->
+    <script src="script/localstoragelist.js"></script>
+    <script src="script/word_list.js"></script>
+    <script src="script/template_navbar.js"></script>
+</head>
+
+<body> <!-- contenido de la página web -->
+    <header class="header__biblioteca"> <!-- clase para la biblioteca -->
+        <h1>Todos los <span class="cursiva">Palabrejos</span></h1> <!-- h1 con el título de la página -->
+    </header>
+
+    <search> <!-- sección de búsqueda -->
+        <form id="search-form"> <!-- deefine un formulario HTML -->
+            <input type="search" id="search" class="bloque_buscar" name="q"> <!-- campo de entrada de búsqueda -->
+            <button class="button_buscar" type="submit"> <!-- botón de envío de formulario -->
+                <img src="img/buscador.svg" alt="Buscar" class="button_image"> <!-- imagen del buscador -->
+            </button>
+        </form>
+    </search>
+
+    <main> <!-- contenido principal de la página -->
+        <div class="card_container"> <!-- sección div de la página -->
+            <div class="text" id="search-results"></div> <!-- Otro div para los resultados de búsqueda -->
+            <p id="mi-palabra"></p> <!-- párrafo -->
+        </div>
+    </main>
+
+    <footer> <!-- crea un pie de página para el documentoo -->
+        <nav data-templating-href="navbar.html"></nav> <!-- barra de navegación del documento -->
+    </footer>
+</body>
+
+</html>

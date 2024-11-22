@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ------------------------VARIABLES------------------------- */
+
+:root {
+    /* ------------------------TIPOGRAFÍAS------------------------- */
+    --font-f-base: 'Ibarra Real Nova', serif;
+    --font-f-text: 'Open Sans', sans-serif;
+    --font-s-base: 12px;
+
+    /* -------------------------COLORES------------------------- */
+    --col-yellow: hsl(45, 100%, 50%);
+    --col-blanco: hsl(0, 0%, 94%);
+    --col-negro: hsl(45, 4%, 20%);
+    }
+
+
+body {
+    display: grid;
+    padding-top: 1em;
+    font-family: var(--font-f-base);
+    background-color: var(--col-negro);
+    color: var(--col-blanco);
+}
+
+main {
+    background-color: var(--col-blanco);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+}
+
+/* -------------------------ESTILOS NAVBAR------------------------- */
+.navbar {
+    position: fixed;
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 16px 32px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    bottom: 0;
+
+    background: var(--col-negro);
+    box-shadow: 0px -1px 8px 0px rgba(--col-negro, 50%);
+    
+}
+
+.navbar li{
+    position: relative;
+}
+
+.icon {
+    padding: 8px;
+}
+
+/* Estilos del icono superpuesto, que por defecto aparece oculto si no se corresponde con la página seleccionada */
+.icon_overlay{
+    position: absolute;
+    top: 0;
+    padding: 8px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    /*Se sube el z index para que quede sobre el otro icono*/
+    z-index: 2;
+}
+
+/* Cuando se detecta que el usuario está en la página seleccionada, el icono superpuesto gana opacidad */
+.icon_selected .icon_overlay{
+    opacity: 1;
+}
+
+/* -------------------------ESTILOS CARD DE CADA PALABREJO------------------------- */
+.card__palabrejo {
+    display: flex;
+    width: 362px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 32px;
+
+    background-color: var(--col-negro);
+    color: var(--col-blanco);
+    font-family: var(--font-f-text);
+
+    .card__info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        color: var(--col-yellow);
+    }
+
+    p {
+        font-size: 0.6em;
+        color: var(--col-blanco);
+        width: 100%;
+    }
+}
+
+#contenedor {
+    height: 100vh; 
+    overflow: hidden; /* Evita el desplazamiento vertical en toda la página */
+}
+
+#titulo-contenedor {
+    font-size: var(--font-s-base);
+    font-family: var(--font-f-text);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    top: 0;
+    left: 0; 
+    line-height: 1.1em;
+    flex-direction: column; 
+    padding-top: 0.8em;
+    padding-left: 2.5em; /* Añade margen a la izquierda */
+
+    h2 {
+        font-size: 24px;
+        font-family: var(--font-f-base);
+    }
+}
+
+#subtitulo-contenedor {
+    display: flex;
+    height: 100%;
+    flex-direction: column;    
+    background-color: var(--col-yellow); /* color de fondo del rectángulo */
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    color: var(--col-negro);
+    align-items: center;
+    margin-top: 5em;
+}
+
+
+.info-cards {
+    display: block;
+    background-color: var(--col-yellow); 
+    padding-bottom: 5.5em;
+    padding-right: 2em; /*Añadido un padding izquierdo para separar las tarjetas del borde izquierdo */
+}
+
+/* -------------------------ESTILOS CARD DE LA HOME------------------------- */
+.card {
+    width: 100%;
+    line-height: 300px;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: var(--col-blanco);
+    color: var(--col-negro);
+    font-family: var(--font-f-text);
+    
+/* -------------------------TEXTOS CARD HOME------------------------- */
+    h3 {
+        font-family: var(--font-f-text);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0.5em;
+    }
+    p {
+        font-size: var(--font-s-base);
+        line-height: 16px;
+    }
+}
+
+/* -------------------------MAPA------------------------- */
+#mapa {
+    width: 323px;
+    height: 339.65px;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#texto-subtitulo {
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    
+    h1 {
+        font-size: 32px;
+    }
+}
+
+
+/* --------------------------------------PÁGINA DE ERROR-------------------------------- */
+
+.contenedor_error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 100%;
+    margin-top: 24px;
+    height: 100%;
+
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: var(--font-f-text);
+    }
+}
+
+.casa-error {
+    background-color: var(--col-blanco);
+    border-radius: 100%;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 280px;
+}
+
+.button{
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-f-text);
+    font-weight: bold;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: var(--col-yellow);
+    border-radius: 8px;
+    width: 12em;
+
+    a{
+        color: var(--col-negro);
+        text-decoration: none;
+    }
+}
+
+.texto_error{
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 64px;
+    line-height: 24px;
+}

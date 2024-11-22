@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --font-f-base: 'Ibarra Real Nova', serif;
+    --font-f-text: 'Open Sans', sans-serif;
+    --font-s-base: 12px;
+    --col-yellow: hsl(45, 100%, 50%);
+    --col-blanco: hsl(0, 0%, 94%);
+    --col-negro: hsl(45, 4%, 20%);
+}
+
+html, body {
+    height: 100%; 
+    padding-top: 0px;
+    background-color: var(--col-negro);
+}
+
+#contenedor_detalles {
+    min-height: 100vh; /* asegurar  que el contenedor tenga al menos la altura de la ventana gráfica */
+}
+
+.cabecera {
+    background-color: var(--col-yellow);
+    padding-bottom: 1em;
+}
+
+.contenido {
+    padding: 1em; /* Añadir relleno para el contenido */
+}
+
+.subtitulo-cabecera {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#palabra {
+    font-family: var(--font-f-base);
+}
+
+.estrella { /* estilos para el icono de la estrella */
+    background-color: var(--col-negro);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    align-items: end;
+}
+
+#phonetic {
+    margin-top: 15px;
+}
+
+#type, #CA {
+    font-style: italic;
+}
+
+.back {
+    padding-top: 1em;
+    padding-left: 0.5em;
+    width: 40px;
+    height: 40px;
+}
+
+/* textos */
+h1 {
+    font-family: var(--font-f-text);
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--col-negro);
+    background-color: var(--col-yellow);
+    padding-top: 0.5em;
+    padding-left: 0.7em;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: var(--font-f-text);
+    font-size: 1.1em;
+    color: var(--col-negro);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+p {
+    font-family: var(--font-f-text);
+    color: var(--col-negro);
+}
+
+a {
+    text-decoration: none; /* Quitar el subrayado que viene por defecto */
+    color: var(--col-blanco);
+}
+
+/* Contenedor general de un grupo de tabs */
+.tabs {}
+
+/* botones de tabs */
+.tabs__buttons {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--col-blanco);
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+.tabs__tabbutton {
+    width: 100%;
+    color: black;
+    flex: 1;
+}
+
+/* botón del tab cuando pasas por encima */
+.tabs__tabbutton:hover {
+    color: var(--col-yellow);
+}
+
+/* botón del tab cuando está seleccionado/activo */
+.tabs__tabbutton--selected {
+    color: var(--col-yellow);
+}
+
+.tabs__content {
+    display: grid;
+    min-height: 20em;
+    border: 1px solid #666;
+    border-radius: 0 0 1em 1em;
+}
+
+/* Una tab con información */
+.tabs__tab {
+    font-family: var(--font-f-text);
+    line-height: 2em;
+    display: none;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: var(--col-blanco);
+    padding: 2em;
+    margin: 2em;
+    width: calc(100% - 4em);
+    height: 25em;
+}
+
+.tabs__tab--visible {
+    display: block;
+}

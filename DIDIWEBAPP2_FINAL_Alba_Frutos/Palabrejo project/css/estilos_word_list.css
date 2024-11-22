@@ -1,0 +1,182 @@
+/* -------------------------ESTILOS WORDLIST------------------------- */
+
+/* ------------------------CARGAR TIPOGRAFÍAS------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* -------------------------VARIABLES------------------------- */
+:root {
+    /* ---------TIPOGRAFÍAS--------- */
+    --font-f-base: 'Ibarra Real Nova', serif;
+    --font-f-text: 'Open Sans', sans-serif;
+    --font-s-base: 12px;
+
+        /* ---------COLORES--------- */
+    --col-yellow: hsl(45, 100%, 50%);
+    --col-blanco: hsl(0, 0%, 94%);
+    --col-negro: hsl(45, 4%, 20%);
+    }
+
+
+body {
+    padding-bottom: 6.5em;
+    padding-top: 0px;
+    font-family: var(--font-f-base);
+    background-color: var(--col-blanco);
+    color: var(--col-negro);
+}
+
+/* -------------------------LINKS------------------------- */
+a {
+    /*Quita el subrayado que viene por defecto*/
+    text-decoration: none;
+}
+
+/* -------------------------HEADER------------------------- */
+.header__biblioteca {
+    background-color: var(--col-yellow);
+    padding: 56px 0px 16px 0px;
+    align-items: center;
+
+/* --------------TEXTO HEADER-------- */
+    h1 {
+        text-align: center;
+        font-family: var(--font-f-text);
+        font-weight: bold;
+        font-size: 1.2em;
+    } 
+    .cursiva {
+        font-weight: 500;
+        font-style: italic;
+    }
+}
+
+/* -----------------------NAVBAR------------------------ */
+.navbar {
+    position: fixed;    /* fijar la navbar en la parte de abajo de la página*/
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 16px 32px;
+    /* separar iconos de las navbar*/
+    justify-content: space-between;
+    align-items: center;
+    /* z index para que quede siempre por encim*/
+    z-index: 1;
+    bottom: 0;
+
+    background: var(--col-negro);
+    box-shadow: 0px -1px 8px 0px rgba(--col-negro, 50%);
+    
+}
+
+.navbar li{
+    position: relative;
+}
+
+.icon {
+    padding: 8px;
+}
+
+/* Estilos del icono superpuesto, que por defecto aparece oculto si no se corresponde con la página seleccionada */
+.icon_overlay{
+    position: absolute;
+    top: 0;
+    padding: 8px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    /*Se sube el z index para que quede sobre el otro icono*/
+    z-index: 2;
+}
+
+/* Cuando se detecta que el usuario está en la página seleccionada, el icono superpuesto gana opacidad */
+.icon_selected .icon_overlay{
+    opacity: 1;
+}
+
+/* -------------------------CARDS DE PALABREJOS------------------------- */
+.card_container{ /* ----CONTAINER DE TODOS LOS PALABREJOS--- */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;  
+    width: 100%;
+    padding-top: 8px;
+    background-color: var(--col-blanco);
+
+/* --------------PALABREJOS INDIVIDUALES--------------- */
+    .card__palabrejo {
+    width: 85vw;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 0px;
+    background-color: var(--col-negro);
+    color: var(--col-blanco);
+    font-family: var(--font-f-text);
+    border: none;
+    
+    .card__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* -------------------TEXTOS PALABREJOS--------------------- */
+    h3 {
+        font-family: var(--font-f-base);
+        font-size: 1.6em;
+        color: var(--col-yellow);
+        text-align: left;
+    }
+
+    p {
+        font-size: var(--font-s-base);
+        color: var(--col-blanco);
+        width: 100%;
+        line-height: 140%;
+        padding-top: 16px;
+
+    }
+        .card__text {
+            width: 65vw;
+        }
+       /* ----------------------ICONO DE FAVORITO------------------------ */ 
+    .fav {
+        display: block;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        text-align: right;
+    }
+
+    }
+
+}
+
+/* --------------------BARRA DE BÚSQUEDA------------------------ */
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.button_buscar{
+    width: auto;
+    cursor:pointer;
+} 
+
+search{
+    height: auto;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+}
+.bloque_buscar{
+    padding: 0.5em;
+    width: 78%;
+    border: 2px solid var(--col-negro); 
+    border-radius: 16px;
+    background-color: var(--col-blanco);
+}
+
